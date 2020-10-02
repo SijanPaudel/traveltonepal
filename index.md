@@ -1,37 +1,356 @@
-## Welcome to GitHub Pages
+<!DOCTYPE html>
+<html lang="en">
 
-You can use the [editor on GitHub](https://github.com/SijanPaudel/traveltonepal/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+        integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg=="
+        crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <title>Travel Website.Place Nepal</title>
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+</head>
 
-### Markdown
+<body>
+    <section class="header">
+        <div class="container">
+            <button type="button" class="login-btn ">Login</button>
+            <div class="logo-text">
+                <img src="logo.png" class="image" alt="Logo">
+                <h2>Travel Nepal</h2>
+            </div>
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+        </div>
+        <h1>Travel across Nepal</h1>
+        <p>Subscribe my youtube channel</p>
+        <div class="input-group">
+            <input type="text" class="form-control" placeholder="Search City or Hills around Nepal">
+            <div class="input-group-append">
+                <button type="submit" class="input-group-text-btn btn">Search</button>
+            </div>
+        </div>
 
-```markdown
-Syntax highlighted code block
 
-# Header 1
-## Header 2
-### Header 3
+    </section>
+    <section class="features">
+        <h1>Featured Destination</h1>
+        <div class="container ">
+            <h3>Natural Places</h3>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="feature-box">
+                        <div class="feature-img">
+                            <img src="natural1.jpg" alt="">
+                            <div class="price">
+                                <p>78$</p>
+                            </div>
+                            <div class="rating">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star-half-o"></i>
+                                <i class="fa fa-star-o"></i>
+                            </div>
+                        </div>
+                        <div class="feature-details">
+                            <h4>Sarangkot</h4>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum dignissimos
+                                nostrum
+                                quia esse ipsa quasi. Tenetur quidem distinctio aut ullam quae reprehenderit
+                                accusantium
+                                quos cum inventore ad! Accusamus, error sint.</p>
+                            <span><i class="fa fa-map-marker">Sarangkot</i></span>
+                            <span><i class="fa fa-sun-o"></i>4 Days</span>
+                            <span><i class="fa fa-moon-o"></i>3 Nights</span>
+                        </div>
+                    </div>
+                </div>
 
-- Bulleted
-- List
 
-1. Numbered
-2. List
 
-**Bold** and _Italic_ and `Code` text
+                <div class="col-md-4">
+                    <div class="feature-box">
+                        <div class="feature-img">
+                            <img src="natural4.jpg" alt="">
+                            <div class="price">
+                                <p>89$</p>
+                            </div>
+                            <div class="rating">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star-half-o"></i>
+                                <i class="fa fa-star-o"></i>
+                            </div>
+                        </div>
+                        <div class="feature-details">
+                            <h4>Mount Everest</h4>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum dignissimos nostrum
+                                quia esse ipsa quasi. Tenetur quidem distinctio aut ullam quae reprehenderit accusantium
+                                quos cum inventore ad! Accusamus, error sint.</p>
+                            <span><i class="fa fa-map-marker">Mount Everest</i></span>
+                            <span><i class="fa fa-sun-o"></i>4 Days</span>
+                            <span><i class="fa fa-moon-o"></i>3 Nights</span>
+                        </div>
+                    </div>
+                </div>
 
-[Link](url) and ![Image](src)
-```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
-### Jekyll Themes
+                <div class="col-md-4">
+                    <div class="feature-box">
+                        <div class="feature-img">
+                            <img src="natural3.jpg" alt="">
+                            <div class="price">
+                                <p>68$</p>
+                            </div>
+                            <div class="rating">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star-half-o"></i>
+                                <i class="fa fa-star-o"></i>
+                            </div>
+                        </div>
+                        <div class="feature-details">
+                            <h4>Ghandruk</h4>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum dignissimos nostrum
+                                quia esse ipsa quasi. Tenetur quidem distinctio aut ullam quae reprehenderit accusantium
+                                quos cum inventore ad! Accusamus, error sint.</p>
+                            <span><i class="fa fa-map-marker">Ghandruk</i></span>
+                            <span><i class="fa fa-sun-o"></i>4 Days</span>
+                            <span><i class="fa fa-moon-o"></i>3 Nights</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/SijanPaudel/traveltonepal/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
 
-### Support or Contact
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+            <div class="container">
+                <h3>Cultural Places</h3>
+
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="feature-box">
+                            <div class="feature-img">
+                                <img src="cultural2.jpg" alt="">
+                                <div class="price">
+                                    <p>68$</p>
+                                </div>
+                                <div class="rating">
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star-half-o"></i>
+                                    <i class="fa fa-star-o"></i>
+                                </div>
+                            </div>
+                            <div class="feature-details">
+                                <h4>Lalitpur</h4>
+                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum dignissimos
+                                    nostrum
+                                    quia esse ipsa quasi. Tenetur quidem distinctio aut ullam quae reprehenderit
+                                    accusantium
+                                    quos cum inventore ad! Accusamus, error sint.</p>
+                                <span><i class="fa fa-map-marker">Lalitpur</i></span>
+                                <span><i class="fa fa-sun-o"></i>4 Days</span>
+                                <span><i class="fa fa-moon-o"></i>3 Nights</span>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="col-md-4">
+                        <div class="feature-box">
+                            <div class="feature-img">
+                                <img src="cultural3.jpg" height="256px" alt="">
+                                <div class="price">
+                                    <p>78$</p>
+                                </div>
+                                <div class="rating">
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star-half-o"></i>
+                                    <i class="fa fa-star-o"></i>
+                                </div>
+                            </div>
+                            <div class="feature-details">
+                                <h4>Kathmandu</h4>
+                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum dignissimos
+                                    nostrum
+                                    quia esse ipsa quasi. Tenetur quidem distinctio aut ullam quae reprehenderit
+                                    accusantium
+                                    quos cum inventore ad! Accusamus, error sint.</p>
+                                <span><i class="fa fa-map-marker">Kathmandu</i></span>
+                                <span><i class="fa fa-sun-o"></i>4 Days</span>
+                                <span><i class="fa fa-moon-o"></i>3 Nights</span>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="col-md-4">
+                        <div class="feature-box">
+                            <div class="feature-img">
+                                <img src="cultural4.jpg" height="256px" alt="">
+                                <div class="price">
+                                    <p>78$</p>
+                                </div>
+                                <div class="rating">
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star-half-o"></i>
+                                    <i class="fa fa-star-o"></i>
+                                </div>
+                            </div>
+                            <div class="feature-details">
+                                <h4>Pokhara</h4>
+                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum dignissimos
+                                    nostrum
+                                    quia esse ipsa quasi. Tenetur quidem distinctio aut ullam quae reprehenderit
+                                    accusantium
+                                    quos cum inventore ad! Accusamus, error sint.</p>
+                                <span><i class="fa fa-map-marker">Pokhara</i></span>
+                                <span><i class="fa fa-sun-o"></i>4 Days</span>
+                                <span><i class="fa fa-moon-o"></i>3 Nights</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+    </section>
+    <section class="gallery">
+        <h1>Travelling Gallery</h1>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="gallery-box">
+                        <img src="natural1.jpg" alt="">
+                        <h4>Sarangkot </h4>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="gallery-box">
+                        <img src="natural2.jpg" height="174px" alt="">
+                        <h4>Mount Everest </h4>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="gallery-box">
+                        <img src="natural3.jpg" alt="">
+                        <h4>Ghandruk </h4>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="gallery-box">
+                        <img src=" natural4.jpg" alt="">
+                        <h4>Annupurna </h4>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <section class="banner">
+        <div class="banner-highlights ">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8">
+                        <h2>Get 30% on the top destinations</h2>
+                        <p>Book your tickets before 31st March and available 30% flat discount</p>
+                    </div>
+                    <div class="col-md-4">
+                        <button type="button" class="booking-btn">Book Now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="user-feedback">
+        <h1>Users Reviews</h1>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="user-review">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur ea perferendis cumque
+                            rerum obcaecati magni itaque quaerat, neque praesentium, libero omnis sint deleniti?</p>
+                        <h5>Sagar Pandey</h5>
+                        <small>Los Angels</small>
+                    </div>
+                    <div class="zoom"><img src="sagar.jpg " alt=""></div>
+                </div>
+                <div class="col-md-4">
+                    <div class="user-review">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur ea perferendis cumque
+                            rerum obcaecati magni itaque quaerat, neque praesentium, libero omnis sint deleniti?</p>
+                        <h5>Sijan Paudel</h5>
+                        <small>Carlifonia</small>
+                    </div>
+                    <div class="zoom"><img src="sijan.jpg " alt=""></div>
+                </div>
+                <div class="col-md-4">
+                    <div class="user-review ">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur ea perferendis cumque
+                            rerum obcaecati magni itaque quaerat, neque praesentium, libero omnis sint deleniti?</p>
+                        <h5>Swostika Bastola</h5>
+                        <small>Canberra</small>
+                    </div>
+                    <div class="zoom"><img src="swostika.jpg " alt=""></div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <section class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="logo-text">
+                        <img src="logo.png" alt="Logo" class="footer-logo">
+                        <h2>Travel Nepal</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore deleniti expedita, fugiat
+                            hic totam excepturi id illo fugit est assumenda autem eaque iste accusamus. Doloremque
+                            voluptates voluptatem unde reiciendis enim?</p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <h4>Features</h4>
+                    <p>Deals & offers</p>
+                    <p>Customer Reviews</p>
+                    <p> Cancellation Policy</p>
+                </div>
+                <div class="col-md-3">
+                    <h4>Follow us on</h4>
+                    <p> <a href="#"> <i class="fa fa-facebook fa-3x "
+                                style="color:white; padding-right:5px;">&nbsp&nbsp&nbsp  Facebook</i> </a> </p>
+                    <p> <a href="#"> <i class="fa fa-twitter fa-3x" style="color:white; padding-right:5px;">&nbsp&nbsp&nbsp Twitter</i>
+                        </a> </p>
+                    <p> <a href="#"> <i class="fa fa-instagram fa-3x"
+                                style="color:white; padding-right:5px;">&nbsp&nbsp&nbsp Instagram</i> </a> </p>
+                    <p> <a href="#"> <i class="fa fa-youtube fa-3x" style="color:white; padding-right:5px;">&nbsp&nbsp&nbsp Youtube</i>
+                        </a> </p>
+                </div>
+                <div class="col-md-3">
+                    <h4>Quick Contact</h4>
+                    <p><i class="fa fa-phone-square " style="color:white;">+9779846906893</i></p>
+                    <p><i class="fa fa-envelope" style="color:white; padding-right:5px;"></i>waytodestination.com</p>
+                    <p><i class="fa fa-home" style="color:white;">Nayagalli,Pokhara,Nepal</i></p>
+                </div>
+            </div>
+            <hr>
+        </div>
+    </section>
+    <footer class="copy">
+        <p> Copyright &copy; www.travelNepal.com. All rights reserved|</p>
+
+    </footer>
+</body>
+
+</html>
